@@ -1,4 +1,4 @@
-from trasformacion.binario_to_decimal import BinarioADecimal
+from transformacion.binario_to_decimal import BinarioToDecimal
 
 if __name__ == "__main__":
     binario = input("Introduce un número binario: ")
@@ -11,9 +11,9 @@ if __name__ == "__main__":
             except ValueError:
                 binario = input("Entrada inválida. Introduce un número binario: ")
 
-    conversor = BinarioADecimal(binario)
+    conversor = BinarioToDecimal(binario)
     decimal = conversor.convertir()
-    print("El número entero:", decimal)
+    print("El número decimales:", decimal)
 
 
 

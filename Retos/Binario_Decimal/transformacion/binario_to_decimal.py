@@ -1,5 +1,5 @@
 #Crea un programa que convierta los numeros binarios a decimales.
-class BinarioADecimal:
+class BinarioToDecimal:
     def __init__(self, binario):
         self.binario = binario
 
